@@ -1,4 +1,3 @@
-
 from typing import List
 
 class Atleta:
@@ -14,27 +13,4 @@ class Atleta:
         return maior_salto
     def menor_salto(self):
         menor_salto =  min(self.saltos)
-        return menor_salto
-
-
-    
-def resultado_salto_final(saltos, maior_salto, menor_salto):
-   saltos.remove(maior_salto)
-   saltos.remove(menor_salto)
-
-def media_de_saltos(saltos):
-    resultado = sum(saltos) / len(saltos)
-    
-
-
-
-
-
-
-
-# pegar o nome
-#criar um atleta
-# pegar saltos e jogar no atleta
-#maior_salto = atleta.maior_salto()
-
-
+     
